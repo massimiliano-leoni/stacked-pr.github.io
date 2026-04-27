@@ -20,7 +20,7 @@ git commit -m 'Add English number printer'
 # Branch 2: Spanish numbers (independent)
 git checkout main
 git checkout -b spanish-numbers
-echo "print('unos')" > spanish.py
+echo "print('uno')" > spanish.py
 echo "print('dos')" >> spanish.py
 echo "print('tres')" >> spanish.py
 git add .
